@@ -56,15 +56,19 @@
             // pnCartela
             // 
             this.pnCartela.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnCartela.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnCartela.ForeColor = System.Drawing.Color.Black;
             this.pnCartela.Location = new System.Drawing.Point(0, 31);
+            this.pnCartela.Margin = new System.Windows.Forms.Padding(0);
             this.pnCartela.Name = "pnCartela";
-            this.pnCartela.Size = new System.Drawing.Size(1008, 482);
+            this.pnCartela.Size = new System.Drawing.Size(1008, 488);
             this.pnCartela.TabIndex = 2;
             // 
             // rbLotomania
             // 
             this.rbLotomania.AutoSize = true;
             this.rbLotomania.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(141)))), ((int)(((byte)(0)))));
+            this.rbLotomania.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbLotomania.Dock = System.Windows.Forms.DockStyle.Left;
             this.rbLotomania.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold);
             this.rbLotomania.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(47)))), ((int)(((byte)(198)))));
@@ -72,7 +76,7 @@
             this.rbLotomania.Margin = new System.Windows.Forms.Padding(0);
             this.rbLotomania.Name = "rbLotomania";
             this.rbLotomania.Padding = new System.Windows.Forms.Padding(16);
-            this.rbLotomania.Size = new System.Drawing.Size(123, 48);
+            this.rbLotomania.Size = new System.Drawing.Size(123, 55);
             this.rbLotomania.TabIndex = 2;
             this.rbLotomania.Text = "LOTOMANIA";
             this.rbLotomania.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -82,13 +86,14 @@
             // 
             this.rbLotofacil.AutoSize = true;
             this.rbLotofacil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(6)))), ((int)(((byte)(109)))));
+            this.rbLotofacil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbLotofacil.Dock = System.Windows.Forms.DockStyle.Left;
             this.rbLotofacil.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbLotofacil.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(141)))), ((int)(((byte)(0)))));
             this.rbLotofacil.Location = new System.Drawing.Point(0, 0);
             this.rbLotofacil.Name = "rbLotofacil";
             this.rbLotofacil.Padding = new System.Windows.Forms.Padding(16);
-            this.rbLotofacil.Size = new System.Drawing.Size(119, 48);
+            this.rbLotofacil.Size = new System.Drawing.Size(119, 55);
             this.rbLotofacil.TabIndex = 1;
             this.rbLotofacil.Text = "LOTOFÁCIL";
             this.rbLotofacil.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -97,6 +102,7 @@
             // rbQuina
             // 
             this.rbQuina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(47)))), ((int)(((byte)(198)))));
+            this.rbQuina.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbQuina.Dock = System.Windows.Forms.DockStyle.Left;
             this.rbQuina.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold);
             this.rbQuina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(141)))), ((int)(((byte)(0)))));
@@ -104,7 +110,7 @@
             this.rbQuina.Name = "rbQuina";
             this.rbQuina.Padding = new System.Windows.Forms.Padding(16);
             this.rbQuina.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.rbQuina.Size = new System.Drawing.Size(104, 48);
+            this.rbQuina.Size = new System.Drawing.Size(104, 55);
             this.rbQuina.TabIndex = 2;
             this.rbQuina.Text = "QUINA";
             this.rbQuina.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -115,13 +121,14 @@
             this.rbMegaSena.AutoSize = true;
             this.rbMegaSena.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(134)))), ((int)(((byte)(72)))));
             this.rbMegaSena.Checked = true;
+            this.rbMegaSena.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbMegaSena.Dock = System.Windows.Forms.DockStyle.Left;
             this.rbMegaSena.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold);
             this.rbMegaSena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(47)))), ((int)(((byte)(198)))));
             this.rbMegaSena.Location = new System.Drawing.Point(346, 0);
             this.rbMegaSena.Name = "rbMegaSena";
             this.rbMegaSena.Padding = new System.Windows.Forms.Padding(16);
-            this.rbMegaSena.Size = new System.Drawing.Size(120, 48);
+            this.rbMegaSena.Size = new System.Drawing.Size(120, 55);
             this.rbMegaSena.TabIndex = 1;
             this.rbMegaSena.TabStop = true;
             this.rbMegaSena.Text = "MEGA SENA";
@@ -131,13 +138,14 @@
             // btnSortear
             // 
             this.btnSortear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnSortear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSortear.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnSortear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSortear.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSortear.ForeColor = System.Drawing.Color.GreenYellow;
             this.btnSortear.Location = new System.Drawing.Point(713, 0);
             this.btnSortear.Name = "btnSortear";
-            this.btnSortear.Size = new System.Drawing.Size(295, 48);
+            this.btnSortear.Size = new System.Drawing.Size(295, 55);
             this.btnSortear.TabIndex = 5;
             this.btnSortear.Text = "Sortear";
             this.btnSortear.UseVisualStyleBackColor = false;
@@ -151,10 +159,11 @@
             this.panel3.Controls.Add(this.rbQuina);
             this.panel3.Controls.Add(this.rbLotomania);
             this.panel3.Controls.Add(this.rbLotofacil);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 513);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 519);
+            this.panel3.Margin = new System.Windows.Forms.Padding(0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1008, 48);
+            this.panel3.Size = new System.Drawing.Size(1008, 55);
             this.panel3.TabIndex = 6;
             // 
             // Form1
@@ -162,7 +171,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1008, 561);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1008, 574);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.pnCartela);
             this.Controls.Add(this.label1);

@@ -28,11 +28,25 @@ namespace Projeto_Loteria
                mega.sortear(60, 6);
             }
 
+           if (rbLotomania.Checked)
+           {
+               Cartela lotomania = new Cartela(100, rbLotomania.BackColor);
+               lotomania.imprimir(pnCartela, 10, 10);
+               lotomania.sortear(100, 50);
+           }
+
            if (rbLotofacil.Checked)
            {
-               Cartela mega = new Cartela(25, rbMegaSena.BackColor);
-               mega.imprimir(pnCartela, 5, 5);
-               //mega.sortear(60, 6);
+               Cartela lotofacil = new Cartela(25, rbLotofacil.BackColor);
+               lotofacil.imprimir(pnCartela, 5, 5);
+               lotofacil.sortear(25, 15);
+           }
+
+           if (rbQuina.Checked)
+           {
+               Cartela quina = new Cartela(80, rbQuina.BackColor);
+               quina.imprimir(pnCartela, 10, 8);
+               quina.sortear(80, 5);
            }
         }
 

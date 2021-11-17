@@ -24,7 +24,12 @@ namespace Projeto_Loteria
                 Numeros[i].AutoSize = false;
                 Numeros[i].TextAlign = ContentAlignment.MiddleCenter;
                 Numeros[i].BorderStyle = BorderStyle.Fixed3D;
-                Numeros[i].Text = (i + 1).ToString().PadLeft(2, '0');
+
+                string numero = (i + 1).ToString().PadLeft(2, '0');
+                if(numero == "100")
+                    numero = "00";
+                Numeros[i].Text = numero;
+                
             }
         }
 
@@ -67,15 +72,12 @@ namespace Projeto_Loteria
                 }
 
                 lista.Add(num);
-                Thread.Sleep(2);
             }
-
-            string caminho = Environment.CurrentDirectory+"\\fundo.png";
-
+            string caminho = Environment.CurrentDirectory;
             foreach (var item in lista)
             {
-                Numeros[item].BackColor = Color.Red;
-              
+                Numeros[item].BackColor = Color.White;
+                Numeros[item].Image = Image.FromFile(caminho + "\\Star_Gold_Dark.png");
             }
         }
     }
