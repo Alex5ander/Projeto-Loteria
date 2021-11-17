@@ -11,7 +11,8 @@ namespace Projeto_Loteria
 {
     class Cartela
     {
-        public List<Label> Numeros {get; set;} 
+        public List<Label> Numeros {get; set;}
+        string caminho = Environment.CurrentDirectory;
 
         public Cartela(int quantidade, Color color)
         {
@@ -29,7 +30,7 @@ namespace Projeto_Loteria
                 if(numero == "100")
                     numero = "00";
                 Numeros[i].Text = numero;
-                
+                Numeros[i].Image = Image.FromFile(caminho + "\\Star_Gold_Dark.png");
             }
         }
 
@@ -73,11 +74,11 @@ namespace Projeto_Loteria
 
                 lista.Add(num);
             }
-            string caminho = Environment.CurrentDirectory;
+            
             foreach (var item in lista)
             {
                 Numeros[item].BackColor = Color.White;
-                Numeros[item].Image = Image.FromFile(caminho + "\\Star_Gold_Dark.png");
+                Numeros[item].Image = Image.FromFile(caminho + "\\cryptocurrency.png");
             }
         }
     }
